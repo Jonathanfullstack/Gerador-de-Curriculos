@@ -1,0 +1,109 @@
+/* Container principal */
+.resume-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #e0e0e0;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  color: #222;
+  font-size: 11pt;
+  line-height: 1.5;
+}
+
+/* Cabeçalho */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info span,
+.contact-info a {
+  white-space: nowrap;
+  color: #222;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 0.25rem;
+  color: #222;
+}
+
+/* Listas de skills e idiomas */
+.skills-list,
+.languages-list {
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+  list-style: disc outside;
+}
+
+.skill-item,
+.language-item {
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+/* Se quiser o visual de "balão" nas skills: */
+.skill-badge {
+  background: #f7fafc;
+  border-radius: 1rem;
+  padding: 0.25rem 0.75rem;
+  display: inline-block;
+}
+/* Experiência, formação, certificação */
+.experience-item,
+.education-item,
+.certification-item {
+  margin-bottom: 1rem;
+}
+
+.date {
+  color: #718096;
+}
+
+.description {
+  margin-top: 0.5rem;
+  color: #4a5568;
+  white-space: pre-line; /* Permite quebra de linha no resumo */
+}
+
+/* Ajuste para impressão */
+@media print {
+  .resume-container {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    max-width: 100vw;
+  }
+}
+
+/* Estilo específico para o preview do currículo */
+.resume-preview {
+  max-height: calc(100vh - 300px);
+}
