@@ -23,7 +23,7 @@ Projeto responsivo para facilitar a criação de currículos completos compatív
 
 ## 🌐 Link do projeto
 
-https://gerador-curriculos.vercel.app/ 
+
 
 ## 🛠️ Como abrir e rodar o projeto
 
